@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.buttons {
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 3px 5px 0px 10px;
+    border:1px solid #e7e7e7;
+}
+
+.gameUpdates , .gameEnd {
+    display : flex ;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid #e7e7e7;
+}
